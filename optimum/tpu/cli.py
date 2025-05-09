@@ -9,7 +9,7 @@ import click
 import typer
 
 
-TORCH_VER = "2.5.1"
+TORCH_VER = "2.6.0"
 JETSTREAM_PT_VER = "jetstream-v0.2.4"
 DEFAULT_DEPS_PATH = os.path.join(Path.home(), ".jetstream-deps")
 
