@@ -42,9 +42,9 @@ keywords = [
 ]
 
 dependencies = [
-    "transformers == 4.51.1",
-    "torch == 2.6.0",
-    "torch-xla[tpu] == 2.6.0",
+    "transformers == 4.56.0",
+    "torch == 2.7.0",
+    "torch-xla[tpu] == 2.7.0",
     'typer == 0.6.1',
     "loguru == 0.6.0",
     "sentencepiece == 0.2.0",
@@ -63,7 +63,7 @@ quality = ["black", "ruff", "isort"]
 # Pallas is pulled because it will install a compatible version of jax[tpu].
 jetstream-pt = [
     "jetstream-pt",
-    "torch-xla[pallas] == 2.6.0"
+    "torch-xla[pallas] == 2.7.0"
 ]
 
 [project.urls]
